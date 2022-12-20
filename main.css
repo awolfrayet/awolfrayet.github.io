@@ -1,0 +1,58 @@
+body {
+    background-color: #515151;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+}
+#index {
+    background-image: url(c1.jpg);
+}
+#contact {
+  background-image: url(c1.jpg);
+}
+#about {
+  background-image: url(c1.jpg);
+}
+nav {
+    background: rgba(0, 255, 149, 0.25);
+    color: white;
+}
+.navbar {
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+  .featurette-divider {
+    margin: 5rem 0; 
+  }
+  .featurette-heading {
+    letter-spacing: -.05rem;
+    color: whitesmoke;
+  }
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  .lead {
+    color: whitesmoke;
+    text-decoration: solid;
+  }
+  .ending {
+    color: rgb(0, 255, 149);
+    text-decoration: solid;
+  }
+  .gallerypic {
+    width: 100%;
+  }
+  #linkmail:hover {
+    text-decoration: none;
+  }
